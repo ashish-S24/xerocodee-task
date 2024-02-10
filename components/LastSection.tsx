@@ -12,7 +12,7 @@ const LastSection = () => {
             </div>
         </div>
         <div className="absolute top-[470px] lg:top-[400px] w-screen lg:w-auto flex items-center justify-center">
-            <Image className=" w-[343px] h-[196px] lg:w-auto lg:h-auto" src="/intersect.png" alt='' width={770.53} height={409}/>
+            <Image className=" w-[343px] h-[196px] lg:w-[770.53px] lg:h-[409px]" src="/intersect.png" alt='' width={770.53} height={409}/>
         </div>
     </section>
   )
