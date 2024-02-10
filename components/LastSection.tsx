@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from './Button'
 import Image from 'next/image'
 
 const LastSection = () => {
@@ -11,8 +10,8 @@ const LastSection = () => {
                 <button className="bg-white w-fit py-[14px] px-[25px] text-[#5E5DEF] rounded-[50px]">Schedule a Call</button>
             </div>
         </div>
-        <div className="absolute top-[470px] lg:top-[400px] w-screen lg:w-auto flex items-center justify-center">
-            <Image className=" w-[343px] h-[196px] lg:w-[770.53px] lg:h-[409px]" src="/intersect.png" alt='' width={770.53} height={409}/>
+        <div className="absolute top-[470px] lg:top-[400px] w-screen lg:w-full flex items-center justify-center">
+            <Image src="/group.png" className=" w-[343px] h-[196px] lg:w-[770.53px] lg:h-[409px]"  alt='' width={770.53} height={409}/>
         </div>
     </section>
   )
