@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Landing Page
 
-## Getting Started
+In this project, I recreated a design into a functional landing page using Tailwind CSS, Next.js and TypeScript. The design provided was transformed into a responsive and interactive web page following a mobile-first design approach
 
-First, run the development server:
+## Technologies
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- `Tailwind CSS`
+- `Next.js`
+- `TypeScript`
+- `Jest` 
+- `Testing Library`
+- `Vercel (for deployment)`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Key Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+-**Responsive Design**: Implemented using a mobile-first approach for seamless user experience across devices.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+-**Custom Sliders**- : Developed interactive sliders for testimonials and other components using React components and CSS transitions.
 
-## Learn More
+-**Dynamic Content Rendering**-: Optimized performance for dynamic content rendering, ensuring smooth transitions and fast load times.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## The Process
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Design Decisions
 
-## Deploy on Vercel
+-**Approach**-:
+- Mobile-first design approach was chosen for rapid responsive development.
+- Utilized CSS media queries to ensure optimal display across various screen sizes.
+- Employed semantic HTML5 elements for improved accessibility and SEO.
+- Incorporated reusable components for modularity and maintainability.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+-**Why Tailwind CSS**-:
+- Utility-First Approach: Rapid development and easy customization of styles using pre-defined utility classes.
+- Responsive Design Implementation: Utilized built-in responsive classes for seamless adaptation to different screen sizes.
+- Custom Styling Flexibility: Extended Tailwind's utility classes for creating custom styles while maintaining a lean CSS file size.
+  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Challenges Faced
+
+While creating custom sliders for testimonials cards and other components, several challenges were encountered:
+- Ensuring smooth and responsive transitions between slides.
+- Implementing touch support for mobile devices.
+- Optimizing performance to minimize rendering and loading times.
+
+
+## Running the Project
+
+To run the project in your local environment, follow these steps:
+
+1. Clone the repository to your local machine.
+2. Run `npm install` or `yarn` in the project directory to install the required dependencies.
+3. Run `npm run dev` or `yarn dev` to get the project started.
+4. Open [http://localhost:5173](http://localhost:5173) (or the address shown in your console) in your web browser to view the app.
+
+
+## Live Demo
+
+https://xerocodee-task-alpha.vercel.app/
